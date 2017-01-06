@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.joanna.kosciol" >
+
+    <application
+        android:icon="@mipmap/logo_tratwa1"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme.NoActionBar" >
+        <activity android:name=".SplashScreenActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" >
+        </activity>
+        <activity
+            android:name=".Plan"
+            android:label="@string/title_activity_plan"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.joanna.kosciol.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Dojazd"
+            android:label="@string/title_activity_dojazd"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.joanna.kosciol.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Counas"
+            android:label="@string/title_activity_counas"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.joanna.kosciol.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Kontakt"
+            android:label="@string/title_activity_kontakt"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.joanna.kosciol.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Koncerty"
+            android:label="@string/title_activity_koncerty"
+            android:parentActivityName=".Counas"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.joanna.kosciol.Counas" />
+        </activity>
+        <activity
+            android:name=".Warsztaty"
+            android:label="@string/title_activity_warsztaty"
+            android:parentActivityName=".Counas"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.joanna.kosciol.Counas" />
+        </activity>
+        <activity
+            android:name=".Uwolnij"
+            android:label="@string/title_activity_uwolnij"
+            android:parentActivityName=".Warsztaty"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.joanna.kosciol.Warsztaty" />
+        </activity>
+        <activity
+            android:name=".Teatr"
+            android:label="@string/title_activity_teatr"
+            android:parentActivityName=".Warsztaty"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.joanna.kosciol.Warsztaty" />
+        </activity>
+        <activity
+            android:name=".Gitara"
+            android:label="@string/title_activity_gitara"
+            android:parentActivityName=".Warsztaty"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.joanna.kosciol.Warsztaty" />
+        </activity>
+        <activity
+            android:name=".Pianista"
+            android:label="@string/title_activity_pianista"
+            android:parentActivityName=".Warsztaty"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.joanna.kosciol.Warsztaty" />
+        </activity>
+        <activity
+            android:name=".Bebny"
+            android:label="@string/title_activity_bebny"
+            android:parentActivityName=".Warsztaty"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.joanna.kosciol.Warsztaty" />
+        </activity>
+        <activity
+            android:name=".Glos"
+            android:label="@string/title_activity_glos"
+            android:parentActivityName=".Warsztaty"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.joanna.kosciol.Warsztaty" />
+        </activity>
+        <activity
+            android:name=".Cialo"
+            android:label="@string/title_activity_cialo"
+            android:parentActivityName=".Warsztaty"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.joanna.kosciol.Warsztaty" />
+        </activity>
+        <activity
+            android:name=".Ulica"
+            android:label="@string/title_activity_ulica"
+            android:parentActivityName=".Warsztaty"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.joanna.kosciol.Warsztaty" />
+        </activity>
+        <activity
+            android:name=".Hip"
+            android:label="@string/title_activity_hip"
+            android:parentActivityName=".Warsztaty"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.joanna.kosciol.Warsztaty" />
+        </activity>
+        <activity
+            android:name=".Grafiti"
+            android:label="@string/title_activity_grafiti"
+            android:parentActivityName=".Warsztaty"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.joanna.kosciol.Warsztaty" />
+        </activity>
+        <activity
+            android:name=".Koral"
+            android:label="@string/title_activity_koral"
+            android:parentActivityName=".Warsztaty"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.joanna.kosciol.Warsztaty" />
+        </activity>
+        <activity
+            android:name=".Makijaz"
+            android:label="@string/title_activity_makijaz"
+            android:parentActivityName=".Warsztaty"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.joanna.kosciol.Warsztaty" />
+        </activity>
+        <activity
+            android:name=".Padre"
+            android:label="@string/title_activity_padre"
+            android:parentActivityName=".Warsztaty"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.joanna.kosciol.Warsztaty" />
+        </activity>
+        <activity
+            android:name=".Foto"
+            android:label="@string/title_activity_foto"
+            android:parentActivityName=".Warsztaty"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.joanna.kosciol.Warsztaty" />
+        </activity>
+        <activity
+            android:name=".Bezp"
+            android:label="@string/title_activity_bezp"
+            android:parentActivityName=".Warsztaty"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.joanna.kosciol.Warsztaty" />
+        </activity>
+        <activity
+            android:name=".Karton"
+            android:label="@string/title_activity_karton"
+            android:parentActivityName=".Warsztaty"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.joanna.kosciol.Warsztaty" />
+        </activity>
+        <activity
+            android:name=".Rysowanie"
+            android:label="@string/title_activity_rysowanie"
+            android:parentActivityName=".Warsztaty"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.joanna.kosciol.Warsztaty" />
+        </activity>
+    </application>
+
+</manifest>
