@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <gradient
+        android:startColor="#6600ff"
+        android:endColor="#ccccff"
+        android:angle="90">
+    </gradient>
+
+
+    <corners
+
+        android:radius="20dip"
+        />
+    <stroke
+        android:width="1px"
+        android:color="#ffff99" />
+</shape><!-- From: file:/C:/Users/Joanna/AndroidStudioProjects/Kosciol/app/src/main/res/drawable/shape.xml -->

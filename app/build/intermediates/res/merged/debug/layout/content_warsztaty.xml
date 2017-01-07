@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:orientation="vertical"
+    tools:showIn="@layout/activity_warsztaty" tools:context="com.example.joanna.kosciol.Warsztaty"
+    android:background="#FDF7CE">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:contentDescription="Tratwa"
+        android:src="@drawable/logo_tratwa1"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Uwolnij swoje\n marzenia"
+        android:background="@drawable/zielony"
+        android:id="@+id/button14" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Warsztat teatralny"
+        android:background="@drawable/czerzol"
+        android:id="@+id/button18" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Guitar Hero"
+        android:background="@drawable/zielczer"
+        android:id="@+id/button19" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Warsztat\n pianistyczny"
+        android:background="@drawable/niebgra"
+        android:id="@+id/button20" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Poczuj ten rytm\n - warsztat bębniarski"
+        android:background="@drawable/niebieski"
+        android:id="@+id/button21" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Osobisty instrument\n każdego z nas - głos"
+        android:background="@drawable/zolty"
+        android:id="@+id/button22" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Odnajdź siebie\n w swoim ciele"
+        android:background="@drawable/zielony"
+        android:id="@+id/button23" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Poczuj\n taniec ulicy"
+        android:background="@drawable/czerzol"
+        android:id="@+id/button24" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Poczuj kulturę\n Hip - Hop"
+        android:background="@drawable/zielczer"
+        android:id="@+id/button25" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Co by tu\n zmalować - graffiti"
+                android:background="@drawable/niebgra"
+                android:id="@+id/button26" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Koralikowanie"
+                android:background="@drawable/niebieski"
+                android:id="@+id/button27" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tajniki\n sztuki makijażu"
+                android:background="@drawable/zolty"
+                android:id="@+id/button28" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gotuj\n z Padre"
+                android:background="@drawable/zielony"
+                android:id="@+id/button29" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Turbofotografia"
+                android:background="@drawable/czerzol"
+                android:id="@+id/button30" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Poczuj się\n bezpiecznie"
+                android:background="@drawable/zielczer"
+                android:id="@+id/button31" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Karton story"
+                android:background="@drawable/niebgra"
+                android:id="@+id/button32" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nauka\n rysowania"
+                android:background="@drawable/niebieski"
+                android:id="@+id/button33" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Trening funkcjonalny\n - Rusz się!"
+                android:background="@drawable/zolty"
+                android:id="@+id/button34" />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+<!-- From: file:/C:/Users/Joanna/AndroidStudioProjects/Kosciol/app/src/main/res/layout/content_warsztaty.xml -->

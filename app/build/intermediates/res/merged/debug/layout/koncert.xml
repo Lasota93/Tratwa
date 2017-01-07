@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" android:background="@drawable/gradient"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="333dp"
+        android:layout_height="68dp"
+        android:text="MARIKA"
+        android:id="@+id/textView2"
+        android:textSize="40dp"
+        android:textColor="#011865"
+        android:layout_row="0"
+        android:layout_column="0" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="KONCERT"
+        android:id="@+id/textView3"
+        android:layout_row="1"
+        android:layout_column="0"
+        android:textColor="#011865"
+        android:textSize="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PIĄTEK 20 MAJA GODZ. 20:30"
+        android:id="@+id/textView4"
+        android:layout_row="2"
+        android:layout_column="0"
+        android:textColor="#eb2327"
+        android:textSize="25dp" />
+</GridLayout><!-- From: file:/C:/Users/Joanna/AndroidStudioProjects/Kosciol/app/src/main/res/layout/koncert.xml -->
